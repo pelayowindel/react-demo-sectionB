@@ -1,11 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { CounterComponent } from './CounterComponent'
-import { Classmates } from './Classmates'
+import { Timers } from './Timers'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <CounterComponent /> */}
-    <Classmates />
+    <Timers />
   </StrictMode>
 )
